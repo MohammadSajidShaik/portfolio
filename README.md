@@ -105,7 +105,4 @@ The color scheme can be customized in `src/index.css` by modifying the CSS varia
 - React Icons
 - CSS3 (Custom Properties, Grid, Flexbox)
 
-## License
-
-This project is open source and available under the MIT License.
 
