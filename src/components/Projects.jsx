@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 import './Projects.css'
 
 const Projects = () => {
-  const [filter, setFilter] = useState('all')
-
   const projects = [
     {
       id: 1,
@@ -19,42 +17,17 @@ const Projects = () => {
     },
   ]
 
-  const categories = [
-    { id: 'all', label: 'All Projects' },
-    { id: 'enterprise', label: 'Enterprise' },
-    { id: 'healthcare', label: 'Healthcare' },
-    { id: 'academic', label: 'Academic' },
-    { id: 'frontend', label: 'Frontend' },
-  ]
-
-  const filteredProjects =
-    filter === 'all'
-      ? projects
-      : projects.filter((project) => project.category === filter)
-
   return (
     <section id="projects" className="projects">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">05.</span> The Batcave Project
+          <span className="title-number">05.</span> Academic Project
         </h2>
         <div className="title-line"></div>
       </div>
 
-      <div className="filter-buttons">
-        {categories.map((category) => (
-          <button
-            key={category.id}
-            className={`filter-btn ${filter === category.id ? 'active' : ''}`}
-            onClick={() => setFilter(category.id)}
-          >
-            {category.label}
-          </button>
-        ))}
-      </div>
-
       <div className="projects-grid">
-        {filteredProjects.map((project) => (
+        {projects.map((project) => (
           <div key={project.id} className="project-card">
             <div className="project-image">
               <div className="project-placeholder">
