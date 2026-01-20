@@ -8,6 +8,7 @@ import {
   FaAws,
   FaDocker,
   FaDatabase,
+  FaCode,
 } from 'react-icons/fa'
 import {
   SiJavascript,
@@ -18,6 +19,8 @@ import {
   SiSpring,
   SiApachekafka,
   SiKubernetes,
+  SiJenkins,
+  SiTerraform,
 } from 'react-icons/si'
 import './Skills.css'
 
@@ -26,7 +29,7 @@ const Skills = () => {
     { name: 'Java', icon: <FaJava />, color: '#ED8B00' },
     { name: 'JavaScript', icon: <SiJavascript />, color: '#F7DF1E' },
     { name: 'Python', icon: <FaPython />, color: '#3776AB' },
-    { name: 'C#', icon: <SiJavascript />, color: '#239120' },
+    { name: 'C#', icon: <FaCode />, color: '#239120' },
     { name: 'TypeScript', icon: <SiTypescript />, color: '#3178C6' },
     { name: 'Spring Boot', icon: <SiSpring />, color: '#6DB33F' },
     { name: 'Hibernate', icon: <SiSpring />, color: '#59666C' },
@@ -39,8 +42,8 @@ const Skills = () => {
     { name: 'Azure', icon: <FaAws />, color: '#0078D4' },
     { name: 'Kubernetes', icon: <SiKubernetes />, color: '#326CE5' },
     { name: 'Docker', icon: <FaDocker />, color: '#2496ED' },
-    { name: 'Jenkins', icon: <FaDocker />, color: '#D24939' },
-    { name: 'Terraform', icon: <FaDocker />, color: '#623CE4' },
+    { name: 'Jenkins', icon: <SiJenkins />, color: '#D24939' },
+    { name: 'Terraform', icon: <SiTerraform />, color: '#623CE4' },
     { name: 'Git', icon: <FaGitAlt />, color: '#F05032' },
     { name: 'PostgreSQL', icon: <SiPostgresql />, color: '#4169E1' },
     { name: 'MySQL', icon: <SiPostgresql />, color: '#4479A1' },
