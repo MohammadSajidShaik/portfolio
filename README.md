@@ -28,8 +28,9 @@ Results-driven Java Developer & Software Engineer specializing in enterprise app
 1. **Hero** - Introduction and professional summary
 2. **About** - Personal information and career highlights
 3. **Skills** - Technical skills and proficiency levels (organized by Programming Languages, Frameworks, Cloud & DevOps, Databases)
-4. **Projects** - Featured projects with filtering (Enterprise, Healthcare, Academic, Frontend)
-5. **Contact** - Contact form and information
+4. **Experience** - Professional work experience and achievements
+5. **Academic Project** - Cloud-Based Inventory Management System
+6. **Contact** - Contact form and information
 
 ## Getting Started
 

@@ -8,69 +8,14 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Policy Management System',
-      description:
-        'Designed and developed a policy management system using Java, Spring Boot, and AWS, reducing manual errors by 25% and improving policy renewal automation for Humana Inc.',
-      tags: ['Java', 'Spring Boot', 'AWS', 'React.js', 'HIPAA'],
-      category: 'enterprise',
-      github: 'https://github.com',
-      demo: 'https://demo.com',
-      image: 'project-1',
-    },
-    {
-      id: 2,
-      title: 'Patient Data Synchronization Module',
-      description:
-        'Implemented a patient data synchronization module using secure REST APIs, ensuring HIPAA-compliant real-time data exchange with external providers.',
-      tags: ['Java', 'Spring Boot', 'REST APIs', 'HIPAA', 'AWS'],
-      category: 'healthcare',
-      github: 'https://github.com',
-      demo: 'https://demo.com',
-      image: 'project-2',
-    },
-    {
-      id: 3,
-      title: 'Customer Portal - Healthcare Benefits',
-      description:
-        'Developed a React.js-based customer portal, increasing user engagement by 10% by providing seamless access to health benefits, claims, and appointment scheduling.',
-      tags: ['React.js', 'JavaScript', 'Spring Boot', 'AWS', 'Kafka'],
-      category: 'frontend',
-      github: 'https://github.com',
-      demo: 'https://demo.com',
-      image: 'project-3',
-    },
-    {
-      id: 4,
-      title: 'Motor Insurance Claims Automation',
-      description:
-        'Developed a motor insurance claims automation system using Java, Spring Boot, and Hibernate, reducing claims processing time by 22% and increasing customer satisfaction.',
-      tags: ['Java', 'Spring Boot', 'Hibernate', 'MySQL', 'Azure'],
-      category: 'enterprise',
-      github: 'https://github.com',
-      demo: 'https://demo.com',
-      image: 'project-4',
-    },
-    {
-      id: 5,
       title: 'Cloud-Based Inventory Management System',
       description:
-        'Designed and developed a cloud-based inventory management solution leveraging Google Cloud Platform, integrating with SAP Business One for real-time inventory tracking.',
-      tags: ['React.js', 'Google Cloud', 'SAP B1', 'SQL Server', 'GCP'],
+        'Designed and developed a cloud-based inventory management solution leveraging Google Cloud Platform (GCP) services, including Cloud SQL and Cloud Dataflow, to support scalable and real-time inventory tracking. Integrated with SAP Business One (SAP B1) to synchronize inventory records and financial data, enhancing operational efficiency and cross-platform consistency. Utilized SQL Server for transactional data and SAP HANA DB for high-performance analytics and reporting. Built an interactive and responsive React.js front-end, enabling real-time monitoring and inventory control for warehouse managers and stakeholders.',
+      tags: ['React.js', 'Google Cloud Platform', 'SAP Business One', 'SQL Server', 'SAP HANA DB', 'Cloud Dataflow'],
       category: 'academic',
       github: 'https://github.com',
       demo: 'https://demo.com',
-      image: 'project-5',
-    },
-    {
-      id: 6,
-      title: 'Microservices Migration - Claims System',
-      description:
-        'Migrated a legacy claims management system to microservices architecture, improving scalability and performance under high-load conditions using Azure Functions.',
-      tags: ['Microservices', 'Azure', 'Java', 'Spring Boot', 'Kafka'],
-      category: 'enterprise',
-      github: 'https://github.com',
-      demo: 'https://demo.com',
-      image: 'project-6',
+      image: 'project-1',
     },
   ]
 
@@ -91,7 +36,7 @@ const Projects = () => {
     <section id="projects" className="projects">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">03.</span> Featured Projects
+          <span className="title-number">05.</span> Academic Project
         </h2>
         <div className="title-line"></div>
       </div>
