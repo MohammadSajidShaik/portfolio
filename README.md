@@ -98,6 +98,35 @@ The color scheme can be customized in `src/index.css` by modifying the CSS varia
 }
 ```
 
+## Contact Form Setup
+
+The contact form currently uses a `mailto:` link that opens the user's email client. For a more professional email solution, you can set up EmailJS:
+
+### EmailJS Setup Instructions:
+
+1. **Create an EmailJS account** at https://www.emailjs.com/
+
+2. **Add an email service** (Gmail, Outlook, etc.)
+
+3. **Create an email template** with these variables:
+   - `{{from_name}}` - Sender's name
+   - `{{from_email}}` - Sender's email
+   - `{{subject}}` - Email subject
+   - `{{message}}` - Email message
+   - `{{to_email}}` - Your email (sajid9md@gmail.com)
+
+4. **Install EmailJS package:**
+   ```bash
+   npm install @emailjs/browser
+   ```
+
+5. **Update the Contact.jsx file** with your EmailJS credentials:
+   ```javascript
+   const serviceId = 'your_service_id' // From EmailJS dashboard
+   const templateId = 'your_template_id' // From EmailJS dashboard
+   const publicKey = 'your_public_key' // From EmailJS dashboard
+   ```
+
 ## Technologies Used
 
 - React 18

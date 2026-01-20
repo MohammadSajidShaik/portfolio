@@ -11,6 +11,7 @@ const Contact = () => {
   })
 
   const [status, setStatus] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   const handleChange = (e) => {
     setFormData({
@@ -21,10 +22,35 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Here you would typically send the form data to a backend
+    setIsSubmitting(true)
+
+    // For now, create a mailto link that opens the user's email client
+    // You can replace this with EmailJS or Formspree later
+    const subject = encodeURIComponent(`Portfolio Contact: ${formData.subject}`)
+    const body = encodeURIComponent(`
+Name: ${formData.name}
+Email: ${formData.email}
+Subject: ${formData.subject}
+
+Message:
+${formData.message}
+
+---
+This message was sent from your portfolio contact form.
+    `)
+
+    const mailtoLink = `mailto:sajid9md@gmail.com?subject=${subject}&body=${body}`
+
+    // Open email client
+    window.location.href = mailtoLink
+
+    // Show success message
     setStatus('success')
     setFormData({ name: '', email: '', subject: '', message: '' })
-    setTimeout(() => setStatus(''), 3000)
+    setTimeout(() => {
+      setStatus('')
+      setIsSubmitting(false)
+    }, 3000)
   }
 
   const contactInfo = [
@@ -52,7 +78,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">07.</span> Send The Signal
+          <span className="title-number">06.</span> Send The Signal
         </h2>
         <div className="title-line"></div>
       </div>
@@ -138,13 +164,23 @@ const Contact = () => {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn btn-primary form-submit">
-            Send Message
+          <button
+            type="submit"
+            className="btn btn-primary form-submit"
+            disabled={isSubmitting}
+          >
+            {isSubmitting ? 'Sending...' : 'Send Message'}
           </button>
 
           {status === 'success' && (
             <p className="form-status success">
               Thank you! Your message has been sent successfully.
+            </p>
+          )}
+
+          {status === 'error' && (
+            <p className="form-status error">
+              Sorry, there was an error sending your message. Please try again or contact me directly at sajid9md@gmail.com.
             </p>
           )}
         </form>
