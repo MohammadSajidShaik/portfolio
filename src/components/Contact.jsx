@@ -31,19 +31,19 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      content: 'your.email@example.com',
-      link: 'mailto:your.email@example.com',
+      content: 'sajid9md@gmail.com',
+      link: 'mailto:sajid9md@gmail.com',
     },
     {
       icon: <FaPhone />,
       title: 'Phone',
-      content: '+1 (234) 567-8900',
-      link: 'tel:+12345678900',
+      content: '+1 (660) 528-5231',
+      link: 'tel:+16605285231',
     },
     {
       icon: <FaMapMarkerAlt />,
       title: 'Location',
-      content: 'Your City, Country',
+      content: 'SF Bay Area, California',
       link: null,
     },
   ]
@@ -60,8 +60,9 @@ const Contact = () => {
       <div className="contact-content">
         <div className="contact-info">
           <p className="contact-intro">
-            I'm always open to discussing new projects, creative ideas, or
-            opportunities to be part of your visions. Feel free to reach out!
+            I'm always open to discussing new projects, innovative solutions in healthcare
+            and insurance technology, or opportunities to leverage my expertise in Java,
+            Spring Boot, and cloud technologies. Feel free to reach out!
           </p>
 
           <div className="contact-details">

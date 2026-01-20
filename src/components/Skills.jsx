@@ -7,7 +7,6 @@ import {
   FaGitAlt,
   FaAws,
   FaDocker,
-  FaDatabase,
 } from 'react-icons/fa'
 import {
   SiJavascript,
@@ -15,42 +14,55 @@ import {
   SiMongodb,
   SiPostgresql,
   SiExpress,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiRedux,
+  SiSpring,
+  SiApachekafka,
+  SiKubernetes,
 } from 'react-icons/si'
 import './Skills.css'
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Programming Languages',
       skills: [
-        { name: 'React', icon: <FaReact />, level: 90 },
-        { name: 'Next.js', icon: <SiNextdotjs />, level: 85 },
+        { name: 'Java', icon: <FaJava />, level: 95 },
         { name: 'JavaScript', icon: <SiJavascript />, level: 90 },
+        { name: 'Python', icon: <FaPython />, level: 85 },
+        { name: 'C#', icon: <SiJavascript />, level: 80 },
         { name: 'TypeScript', icon: <SiTypescript />, level: 85 },
-        { name: 'Redux', icon: <SiRedux />, level: 80 },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85 },
       ],
     },
     {
-      title: 'Backend',
+      title: 'Frameworks & Libraries',
       skills: [
-        { name: 'Node.js', icon: <FaNodeJs />, level: 90 },
-        { name: 'Express', icon: <SiExpress />, level: 85 },
-        { name: 'Python', icon: <FaPython />, level: 80 },
-        { name: 'Java', icon: <FaJava />, level: 75 },
+        { name: 'Spring Boot', icon: <SiSpring />, level: 95 },
+        { name: 'Hibernate', icon: <SiSpring />, level: 90 },
+        { name: 'React.js', icon: <FaReact />, level: 85 },
+        { name: 'Node.js', icon: <FaNodeJs />, level: 85 },
+        { name: 'Angular', icon: <FaReact />, level: 80 },
+        { name: 'Express.js', icon: <SiExpress />, level: 80 },
+        { name: 'Apache Kafka', icon: <SiApachekafka />, level: 85 },
       ],
     },
     {
-      title: 'Database & Tools',
+      title: 'Cloud & DevOps',
       skills: [
-        { name: 'MongoDB', icon: <SiMongodb />, level: 85 },
-        { name: 'PostgreSQL', icon: <SiPostgresql />, level: 80 },
+        { name: 'AWS', icon: <FaAws />, level: 90 },
+        { name: 'Azure', icon: <FaAws />, level: 85 },
+        { name: 'Kubernetes', icon: <SiKubernetes />, level: 85 },
+        { name: 'Docker', icon: <FaDocker />, level: 85 },
+        { name: 'Jenkins', icon: <FaDocker />, level: 80 },
+        { name: 'Terraform', icon: <FaDocker />, level: 75 },
         { name: 'Git', icon: <FaGitAlt />, level: 90 },
-        { name: 'AWS', icon: <FaAws />, level: 75 },
-        { name: 'Docker', icon: <FaDocker />, level: 80 },
+      ],
+    },
+    {
+      title: 'Databases',
+      skills: [
+        { name: 'PostgreSQL', icon: <SiPostgresql />, level: 90 },
+        { name: 'MySQL', icon: <SiPostgresql />, level: 85 },
+        { name: 'MongoDB', icon: <SiMongodb />, level: 85 },
+        { name: 'SQL Server', icon: <SiPostgresql />, level: 80 },
       ],
     },
   ]

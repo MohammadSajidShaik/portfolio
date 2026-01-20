@@ -1,6 +1,17 @@
-# Full Stack Developer Portfolio
+# Sajid Shaik - Full Stack Developer Portfolio
 
-A modern, responsive portfolio website built with React and Vite. Features a beautiful UI with smooth animations and a professional layout.
+A modern, responsive portfolio website showcasing my expertise as a Java Developer & Software Engineer with 4+ years of experience in enterprise application development, microservices architecture, and full-stack development in the insurance and healthcare sectors.
+
+## About
+
+Results-driven Java Developer & Software Engineer specializing in enterprise application development, microservices architecture, and full-stack development. Adept at designing and implementing scalable Java-based solutions and optimizing cloud-based infrastructures using AWS, Kubernetes, and Docker.
+
+**Key Expertise:**
+- Enterprise Java Development (Spring Boot, Hibernate)
+- Cloud Technologies (AWS, Azure, GCP)
+- Microservices Architecture
+- Healthcare & Insurance Domain
+- CI/CD & DevOps
 
 ## Features
 
@@ -14,10 +25,10 @@ A modern, responsive portfolio website built with React and Vite. Features a bea
 
 ## Sections
 
-1. **Hero** - Introduction and call-to-action
-2. **About** - Personal information and highlights
-3. **Skills** - Technical skills and proficiency levels
-4. **Projects** - Featured projects with filtering
+1. **Hero** - Introduction and professional summary
+2. **About** - Personal information and career highlights
+3. **Skills** - Technical skills and proficiency levels (organized by Programming Languages, Frameworks, Cloud & DevOps, Databases)
+4. **Projects** - Featured projects with filtering (Enterprise, Healthcare, Academic, Frontend)
 5. **Contact** - Contact form and information
 
 ## Getting Started

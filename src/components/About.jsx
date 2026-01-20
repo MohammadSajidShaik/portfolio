@@ -14,33 +14,35 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p className="about-description">
-            I'm a passionate Full Stack Developer with expertise in building
-            modern web applications. I love creating seamless user experiences
-            and robust backend systems that solve real-world problems.
+            I'm a results-driven Java Developer & Software Engineer with 4+ years of experience
+            specializing in enterprise application development, microservices architecture, and
+            full-stack development in the insurance and healthcare sectors.
           </p>
           <p className="about-description">
-            My journey in web development started with a curiosity about how
-            websites work, and it has evolved into a career focused on creating
-            innovative solutions using cutting-edge technologies.
+            Adept at designing and implementing scalable Java-based solutions and optimizing
+            cloud-based infrastructures using AWS, Kubernetes, and Docker. Strong expertise
+            in CI/CD, API development, and Agile methodologies to ensure robust, high-performance
+            software solutions.
           </p>
           <p className="about-description">
-            When I'm not coding, I enjoy exploring new technologies, contributing
-            to open-source projects, and continuously learning to stay ahead in
-            this ever-evolving field.
+            Currently working at Humana Inc. in California, with previous experience at TCS
+            in India. Certified in Microsoft Azure Fundamentals (AZ-900) and AWS Certified
+            Solutions Architect Associate. Holder of a Master's degree in Information Systems
+            from Northwest Missouri State University.
           </p>
           
           <div className="about-highlights">
             <div className="highlight-item">
-              <span className="highlight-number">50+</span>
-              <span className="highlight-label">Projects Completed</span>
-            </div>
-            <div className="highlight-item">
-              <span className="highlight-number">3+</span>
+              <span className="highlight-number">4+</span>
               <span className="highlight-label">Years Experience</span>
             </div>
             <div className="highlight-item">
-              <span className="highlight-number">20+</span>
-              <span className="highlight-label">Happy Clients</span>
+              <span className="highlight-number">2</span>
+              <span className="highlight-label">AWS Certifications</span>
+            </div>
+            <div className="highlight-item">
+              <span className="highlight-number">3+</span>
+              <span className="highlight-label">Companies</span>
             </div>
           </div>
         </div>

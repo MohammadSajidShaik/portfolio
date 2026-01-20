@@ -8,66 +8,66 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
+      title: 'Policy Management System',
       description:
-        'A full-stack e-commerce solution with user authentication, payment integration, and admin dashboard. Built with React, Node.js, and MongoDB.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      category: 'fullstack',
+        'Designed and developed a policy management system using Java, Spring Boot, and AWS, reducing manual errors by 25% and improving policy renewal automation for Humana Inc.',
+      tags: ['Java', 'Spring Boot', 'AWS', 'React.js', 'HIPAA'],
+      category: 'enterprise',
       github: 'https://github.com',
       demo: 'https://demo.com',
       image: 'project-1',
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'Patient Data Synchronization Module',
       description:
-        'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      tags: ['React', 'Firebase', 'TypeScript'],
-      category: 'frontend',
+        'Implemented a patient data synchronization module using secure REST APIs, ensuring HIPAA-compliant real-time data exchange with external providers.',
+      tags: ['Java', 'Spring Boot', 'REST APIs', 'HIPAA', 'AWS'],
+      category: 'healthcare',
       github: 'https://github.com',
       demo: 'https://demo.com',
       image: 'project-2',
     },
     {
       id: 3,
-      title: 'REST API Service',
+      title: 'Customer Portal - Healthcare Benefits',
       description:
-        'A scalable REST API with authentication, rate limiting, and comprehensive documentation. Built with Express and PostgreSQL.',
-      tags: ['Node.js', 'Express', 'PostgreSQL', 'JWT'],
-      category: 'backend',
+        'Developed a React.js-based customer portal, increasing user engagement by 10% by providing seamless access to health benefits, claims, and appointment scheduling.',
+      tags: ['React.js', 'JavaScript', 'Spring Boot', 'AWS', 'Kafka'],
+      category: 'frontend',
       github: 'https://github.com',
       demo: 'https://demo.com',
       image: 'project-3',
     },
     {
       id: 4,
-      title: 'Social Media Dashboard',
+      title: 'Motor Insurance Claims Automation',
       description:
-        'A responsive dashboard for managing social media accounts with analytics, scheduling, and engagement tracking.',
-      tags: ['Next.js', 'Tailwind CSS', 'Chart.js'],
-      category: 'frontend',
+        'Developed a motor insurance claims automation system using Java, Spring Boot, and Hibernate, reducing claims processing time by 22% and increasing customer satisfaction.',
+      tags: ['Java', 'Spring Boot', 'Hibernate', 'MySQL', 'Azure'],
+      category: 'enterprise',
       github: 'https://github.com',
       demo: 'https://demo.com',
       image: 'project-4',
     },
     {
       id: 5,
-      title: 'Microservices Architecture',
+      title: 'Cloud-Based Inventory Management System',
       description:
-        'A microservices-based application with service discovery, API gateway, and container orchestration using Docker and Kubernetes.',
-      tags: ['Node.js', 'Docker', 'Kubernetes', 'Redis'],
-      category: 'backend',
+        'Designed and developed a cloud-based inventory management solution leveraging Google Cloud Platform, integrating with SAP Business One for real-time inventory tracking.',
+      tags: ['React.js', 'Google Cloud', 'SAP B1', 'SQL Server', 'GCP'],
+      category: 'academic',
       github: 'https://github.com',
       demo: 'https://demo.com',
       image: 'project-5',
     },
     {
       id: 6,
-      title: 'Real-time Chat Application',
+      title: 'Microservices Migration - Claims System',
       description:
-        'A real-time messaging application with WebSocket support, file sharing, and group chat functionality.',
-      tags: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-      category: 'fullstack',
+        'Migrated a legacy claims management system to microservices architecture, improving scalability and performance under high-load conditions using Azure Functions.',
+      tags: ['Microservices', 'Azure', 'Java', 'Spring Boot', 'Kafka'],
+      category: 'enterprise',
       github: 'https://github.com',
       demo: 'https://demo.com',
       image: 'project-6',
@@ -76,9 +76,10 @@ const Projects = () => {
 
   const categories = [
     { id: 'all', label: 'All Projects' },
-    { id: 'fullstack', label: 'Full Stack' },
+    { id: 'enterprise', label: 'Enterprise' },
+    { id: 'healthcare', label: 'Healthcare' },
+    { id: 'academic', label: 'Academic' },
     { id: 'frontend', label: 'Frontend' },
-    { id: 'backend', label: 'Backend' },
   ]
 
   const filteredProjects =
