@@ -5,19 +5,28 @@
 }
 
 :root {
-  /* Batman Developer Theme */
-  --primary-color: #fbbf24; /* Batman yellow/gold */
-  --secondary-color: #1a365d; /* Dark navy blue */
-  --accent-color: #d97706; /* Darker gold */
-  --dark-bg: #0a0a0a; /* Deep black */
-  --dark-secondary: #1a1a1a; /* Slightly lighter black */
-  --card-background: rgba(26, 26, 26, 0.8); /* Semi-transparent dark card */
-  --border-color: rgba(251, 191, 36, 0.2); /* Subtle gold border */
-  --shadow: 0 8px 32px rgba(251, 191, 36, 0.1); /* Gold-tinted shadow */
-  --text-primary: #f1f5f9; /* Light text */
+  /* Full Batman Developer Theme - Gotham Dark Knight */
+  --batman-black: #0a0a0a; /* Deep Gotham black */
+  --batman-dark-gray: #1a1a1a; /* Dark knight armor */
+  --batman-gold: #fbbf24; /* Batman emblem gold */
+  --batman-dark-gold: #d97706; /* Aged gold */
+  --batman-navy: #1a365d; /* Gotham night sky */
+  --batman-red: #dc2626; /* Batman signal red */
+
+  /* Main theme colors */
+  --primary-color: var(--batman-gold); /* Batman yellow/gold */
+  --secondary-color: var(--batman-navy); /* Gotham night blue */
+  --accent-color: var(--batman-dark-gold); /* Darker gold */
+  --dark-bg: var(--batman-black); /* Deep black */
+  --dark-secondary: var(--batman-dark-gray); /* Slightly lighter black */
+  --card-background: rgba(26, 26, 26, 0.9); /* Semi-transparent dark card */
+  --border-color: rgba(251, 191, 36, 0.3); /* Subtle gold border */
+  --shadow: 0 8px 32px rgba(251, 191, 36, 0.15); /* Gold-tinted shadow */
+  --text-primary: #f8fafc; /* Light text for dark theme */
   --text-secondary: #cbd5e1; /* Muted text */
   --background-color: var(--dark-bg);
-  --gradient: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
+  --gradient: linear-gradient(135deg, var(--batman-gold) 0%, var(--batman-navy) 50%, var(--batman-dark-gold) 100%);
+  --batman-gradient: linear-gradient(135deg, var(--batman-gold), var(--batman-dark-gold), var(--batman-navy));
 }
 
 html {

@@ -1,6 +1,6 @@
-# Sajid Shaik - Java Developer Portfolio
+# Sajid Shaik - The Dark Knight Developer Portfolio
 
-A modern, responsive portfolio website showcasing my expertise as a Java Developer & Software Engineer with 4+ years of experience in enterprise application development, microservices architecture, and full-stack development in the insurance and healthcare sectors.
+A dark, mysterious portfolio website where a Java Developer & Software Engineer emerges from the shadows. Armed with 4+ years of experience in enterprise application development, microservices architecture, and full-stack development in the critical sectors of insurance and healthcare.
 
 ## About
 
@@ -25,12 +25,12 @@ Results-driven Software Engineer specializing in enterprise application developm
 
 ## Sections
 
-1. **Hero** - Introduction and professional summary
-2. **About** - Personal information and career highlights
-3. **Skills** - Technical skills and proficiency levels (organized by Programming Languages, Frameworks, Cloud & DevOps, Databases)
-4. **Experience** - Professional work experience and achievements
-5. **Academic Project** - Cloud-Based Inventory Management System
-6. **Contact** - Contact form and information
+1. **Hero** - The Batman Signal - Introduction and dark knight manifesto
+2. **About** - The Origin Story - Personal journey and career highlights
+3. **Arsenal & Gadgets** - Technical skills and proficiency levels (Programming Languages, Frameworks, Cloud & DevOps, Databases)
+4. **The Dark Knight Chronicles** - Professional work experience and achievements
+5. **The Batcave Project** - Academic masterpiece - Cloud-Based Inventory Management System
+6. **Send The Signal** - Contact form and information
 
 ## Getting Started
 

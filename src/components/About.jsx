@@ -13,22 +13,22 @@ const About = () => {
       
       <div className="about-content">
         <div className="about-text">
-          <p className="about-description">
-            I'm a results-driven Java Developer & Software Engineer with 4+ years of experience
-            specializing in enterprise application development, microservices architecture, and
-            full-stack development in the insurance and healthcare sectors.
+          <p className="about-description batman-intro">
+            In the shadowed corridors of enterprise systems, I emerge as a Java Developer & Software Engineer.
+            Armed with 4+ years of relentless experience, I specialize in enterprise application development,
+            microservices architecture, and full-stack development in the critical sectors of insurance and healthcare.
           </p>
-          <p className="about-description">
-            Adept at designing and implementing scalable Java-based solutions and optimizing
-            cloud-based infrastructures using AWS, Kubernetes, and Docker. Strong expertise
-            in CI/CD, API development, and Agile methodologies to ensure robust, high-performance
-            software solutions.
+          <p className="about-description batman-skills">
+            Master of scalable Java-based solutions, I wield AWS, Kubernetes, and Docker to optimize cloud infrastructures.
+            My expertise in CI/CD pipelines, REST APIs, and Agile methodologies ensures that every solution I craft
+            stands as an unbreakable fortress against system failures and performance bottlenecks.
           </p>
-          <p className="about-description">
-            Currently working at Humana Inc. in California, with previous experience at TCS
-            in India. Certified in Microsoft Azure Fundamentals (AZ-900) and AWS Certified
-            Solutions Architect Associate. Holder of a Master's degree in Information Systems
-            from Northwest Missouri State University.
+          <p className="about-description batman-background">
+            Currently serving justice at Humana Inc. in California, I previously fought crime at TCS in India.
+            Certified in Microsoft Azure Fundamentals (AZ-900) and AWS Solutions Architect Associate,
+            I hold a Master's degree in Information Systems from Northwest Missouri State University.
+            <br /><br />
+            <span className="batman-quote">"The night is darkest just before the dawn. And I promise you, the dawn is coming."</span>
           </p>
           
           <div className="about-highlights">

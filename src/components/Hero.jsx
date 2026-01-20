@@ -17,13 +17,15 @@ const Hero = () => {
           <div className="hero-text">
             <p className="hero-greeting fade-in">Hello, I'm</p>
             <h1 className="hero-name fade-in-up">
-              <span className="gradient-text">Sajid Shaik</span>
-              <span className="hero-subtitle batman-glow">The Batman Developer</span>
+              <span className="gradient-text batman-text">SAJID SHAIK</span>
+              <span className="hero-subtitle batman-glow batman-signal">THE DARK KNIGHT DEVELOPER</span>
             </h1>
-            <p className="hero-description fade-in-up">
-              Results-driven Java Developer & Software Engineer with 4+ years of experience
-              specializing in enterprise application development, microservices architecture,
-              and full-stack development in the insurance and healthcare sectors.
+            <p className="hero-description fade-in-up batman-description">
+              In the shadows of enterprise systems, I emerge as a Java Developer & Software Engineer.
+              With 4+ years of experience in the darkness of complex architectures, I craft
+              scalable solutions that protect and serve the digital realm of insurance and healthcare.
+              <br /><br />
+              <span className="batman-motto">"I am vengeance. I am justice. I am the code that runs in the night."</span>
             </p>
             <div className="hero-buttons fade-in-up">
               <button

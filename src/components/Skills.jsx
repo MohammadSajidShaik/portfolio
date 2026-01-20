@@ -71,7 +71,7 @@ const Skills = () => {
     <section id="skills" className="skills">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">03.</span> Skills & Technologies
+          <span className="title-number">03.</span> Arsenal & Gadgets
         </h2>
         <div className="title-line"></div>
       </div>

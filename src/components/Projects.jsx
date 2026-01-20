@@ -36,7 +36,7 @@ const Projects = () => {
     <section id="projects" className="projects">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">05.</span> Academic Project
+          <span className="title-number">05.</span> The Batcave Project
         </h2>
         <div className="title-line"></div>
       </div>
