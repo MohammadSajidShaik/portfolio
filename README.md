@@ -1,4 +1,4 @@
-# Sajid Shaik - Full Stack Developer Portfolio
+# Sajid Shaik - Java Developer & Software Engineer Portfolio
 
 A modern, responsive portfolio website showcasing my expertise as a Java Developer & Software Engineer with 4+ years of experience in enterprise application development, microservices architecture, and full-stack development in the insurance and healthcare sectors.
 
