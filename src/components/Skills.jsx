@@ -7,6 +7,7 @@ import {
   FaGitAlt,
   FaAws,
   FaDocker,
+  FaDatabase,
 } from 'react-icons/fa'
 import {
   SiJavascript,
@@ -21,50 +22,30 @@ import {
 import './Skills.css'
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      title: 'Programming Languages',
-      skills: [
-        { name: 'Java', icon: <FaJava />, level: 95 },
-        { name: 'JavaScript', icon: <SiJavascript />, level: 90 },
-        { name: 'Python', icon: <FaPython />, level: 85 },
-        { name: 'C#', icon: <SiJavascript />, level: 80 },
-        { name: 'TypeScript', icon: <SiTypescript />, level: 85 },
-      ],
-    },
-    {
-      title: 'Frameworks & Libraries',
-      skills: [
-        { name: 'Spring Boot', icon: <SiSpring />, level: 95 },
-        { name: 'Hibernate', icon: <SiSpring />, level: 90 },
-        { name: 'React.js', icon: <FaReact />, level: 85 },
-        { name: 'Node.js', icon: <FaNodeJs />, level: 85 },
-        { name: 'Angular', icon: <FaReact />, level: 80 },
-        { name: 'Express.js', icon: <SiExpress />, level: 80 },
-        { name: 'Apache Kafka', icon: <SiApachekafka />, level: 85 },
-      ],
-    },
-    {
-      title: 'Cloud & DevOps',
-      skills: [
-        { name: 'AWS', icon: <FaAws />, level: 90 },
-        { name: 'Azure', icon: <FaAws />, level: 85 },
-        { name: 'Kubernetes', icon: <SiKubernetes />, level: 85 },
-        { name: 'Docker', icon: <FaDocker />, level: 85 },
-        { name: 'Jenkins', icon: <FaDocker />, level: 80 },
-        { name: 'Terraform', icon: <FaDocker />, level: 75 },
-        { name: 'Git', icon: <FaGitAlt />, level: 90 },
-      ],
-    },
-    {
-      title: 'Databases',
-      skills: [
-        { name: 'PostgreSQL', icon: <SiPostgresql />, level: 90 },
-        { name: 'MySQL', icon: <SiPostgresql />, level: 85 },
-        { name: 'MongoDB', icon: <SiMongodb />, level: 85 },
-        { name: 'SQL Server', icon: <SiPostgresql />, level: 80 },
-      ],
-    },
+  const skills = [
+    { name: 'Java', icon: <FaJava />, color: '#ED8B00' },
+    { name: 'JavaScript', icon: <SiJavascript />, color: '#F7DF1E' },
+    { name: 'Python', icon: <FaPython />, color: '#3776AB' },
+    { name: 'C#', icon: <SiJavascript />, color: '#239120' },
+    { name: 'TypeScript', icon: <SiTypescript />, color: '#3178C6' },
+    { name: 'Spring Boot', icon: <SiSpring />, color: '#6DB33F' },
+    { name: 'Hibernate', icon: <SiSpring />, color: '#59666C' },
+    { name: 'React.js', icon: <FaReact />, color: '#61DAFB' },
+    { name: 'Node.js', icon: <FaNodeJs />, color: '#339933' },
+    { name: 'Angular', icon: <FaReact />, color: '#DD0031' },
+    { name: 'Express.js', icon: <SiExpress />, color: '#000000' },
+    { name: 'Apache Kafka', icon: <SiApachekafka />, color: '#000000' },
+    { name: 'AWS', icon: <FaAws />, color: '#FF9900' },
+    { name: 'Azure', icon: <FaAws />, color: '#0078D4' },
+    { name: 'Kubernetes', icon: <SiKubernetes />, color: '#326CE5' },
+    { name: 'Docker', icon: <FaDocker />, color: '#2496ED' },
+    { name: 'Jenkins', icon: <FaDocker />, color: '#D24939' },
+    { name: 'Terraform', icon: <FaDocker />, color: '#623CE4' },
+    { name: 'Git', icon: <FaGitAlt />, color: '#F05032' },
+    { name: 'PostgreSQL', icon: <SiPostgresql />, color: '#4169E1' },
+    { name: 'MySQL', icon: <SiPostgresql />, color: '#4479A1' },
+    { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
+    { name: 'SQL Server', icon: <FaDatabase />, color: '#CC2927' },
   ]
 
   return (
@@ -77,28 +58,18 @@ const Skills = () => {
       </div>
 
       <div className="skills-container">
-        {skillCategories.map((category, index) => (
-          <div key={index} className="skill-category">
-            <h3 className="category-title">{category.title}</h3>
-            <div className="skills-grid">
-              {category.skills.map((skill, skillIndex) => (
-                <div key={skillIndex} className="skill-item">
-                  <div className="skill-header">
-                    <div className="skill-icon">{skill.icon}</div>
-                    <span className="skill-name">{skill.name}</span>
-                    <span className="skill-percentage">{skill.level}%</span>
-                  </div>
-                  <div className="skill-bar">
-                    <div
-                      className="skill-progress"
-                      style={{ width: `${skill.level}%` }}
-                    ></div>
-                  </div>
+        <div className="skills-grid">
+          {skills.map((skill, index) => (
+            <div key={index} className="skill-card">
+              <div className="skill-icon-wrapper">
+                <div className="skill-icon" style={{ color: skill.color }}>
+                  {skill.icon}
                 </div>
-              ))}
+              </div>
+              <span className="skill-name">{skill.name}</span>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   )
