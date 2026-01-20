@@ -5,13 +5,18 @@
 }
 
 :root {
-  --primary-color: #6366f1;
-  --secondary-color: #8b5cf6;
-  --accent-color: #ec4899;
-  --dark-bg: #0f172a;
-  --dark-secondary: #1e293b;
-  --text-primary: #f1f5f9;
-  --text-secondary: #cbd5e1;
+  /* Batman Developer Theme */
+  --primary-color: #fbbf24; /* Batman yellow/gold */
+  --secondary-color: #1a365d; /* Dark navy blue */
+  --accent-color: #d97706; /* Darker gold */
+  --dark-bg: #0a0a0a; /* Deep black */
+  --dark-secondary: #1a1a1a; /* Slightly lighter black */
+  --card-background: rgba(26, 26, 26, 0.8); /* Semi-transparent dark card */
+  --border-color: rgba(251, 191, 36, 0.2); /* Subtle gold border */
+  --shadow: 0 8px 32px rgba(251, 191, 36, 0.1); /* Gold-tinted shadow */
+  --text-primary: #f1f5f9; /* Light text */
+  --text-secondary: #cbd5e1; /* Muted text */
+  --background-color: var(--dark-bg);
   --gradient: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
 }
 
@@ -52,5 +57,22 @@ code {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color);
+  box-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
+}
+
+/* Batman Developer Theme Enhancements */
+.batman-glow {
+  text-shadow: 0 0 20px rgba(251, 191, 36, 0.5);
+}
+
+.batman-border {
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  box-shadow: 0 0 15px rgba(251, 191, 36, 0.1);
+}
+
+.batman-hover:hover {
+  box-shadow: 0 0 25px rgba(251, 191, 36, 0.3);
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 

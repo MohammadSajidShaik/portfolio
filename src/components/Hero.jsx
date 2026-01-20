@@ -18,6 +18,7 @@ const Hero = () => {
             <p className="hero-greeting fade-in">Hello, I'm</p>
             <h1 className="hero-name fade-in-up">
               <span className="gradient-text">Sajid Shaik</span>
+              <span className="hero-subtitle batman-glow">The Batman Developer</span>
             </h1>
             <p className="hero-description fade-in-up">
               Results-driven Java Developer & Software Engineer with 4+ years of experience

@@ -36,6 +36,17 @@
   margin-bottom: 1.5rem;
 }
 
+.hero-subtitle {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-top: 0.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
 .gradient-text {
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
   -webkit-background-clip: text;
