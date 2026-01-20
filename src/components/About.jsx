@@ -1,4 +1,5 @@
 import React from 'react'
+import profileImage from '../assets/IMG_6072 2.jpg'
 import './About.css'
 
 const About = () => {
@@ -49,8 +50,17 @@ const About = () => {
         
         <div className="about-image">
           <div className="image-wrapper">
-            <div className="image-placeholder">
-              <span>Your Photo</span>
+            <img
+              src={profileImage}
+              alt="Sajid Shaik - The Dark Knight Developer"
+              className="profile-image"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'flex';
+              }}
+            />
+            <div className="image-placeholder" style={{ display: 'none' }}>
+              <span>🦇</span>
             </div>
             <div className="image-border"></div>
           </div>
