@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
             <div className="hero-social fade-in">
               <a
-                href="https://github.com"
+                href="https://github.com/MohammadSajidShaik"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -48,7 +48,7 @@ const Hero = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/shaik-mohammad-sajid"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
