@@ -52,7 +52,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">05.</span> Send The Signal
+          <span className="title-number">07.</span> Send The Signal
         </h2>
         <div className="title-line"></div>
       </div>

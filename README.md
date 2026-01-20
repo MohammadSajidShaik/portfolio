@@ -29,8 +29,9 @@ Results-driven Software Engineer specializing in enterprise application developm
 2. **About** - The Origin Story - Personal journey and career highlights
 3. **Arsenal & Gadgets** - Technical skills and proficiency levels (Programming Languages, Frameworks, Cloud & DevOps, Databases)
 4. **The Dark Knight Chronicles** - Professional work experience and achievements
-5. **Academic Project** - Cloud-Based Inventory Management System
-6. **Send The Signal** - Contact form and information
+5. **Education** - Academic background and achievements
+6. **Academic Project** - Cloud-Based Inventory Management System
+7. **Send The Signal** - Contact form and information
 
 ## Getting Started
 
