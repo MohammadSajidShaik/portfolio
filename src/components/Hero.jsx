@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="hero-buttons fade-in-up">
               <button
                 className="btn btn-primary"
-                onClick={() => scrollToSection('projects')}
+                onClick={() => scrollToSection('experience')}
               >
                 View My Work
               </button>
