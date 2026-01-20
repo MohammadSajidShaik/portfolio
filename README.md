@@ -1,10 +1,10 @@
-# Sajid Shaik - Batman Developer Portfolio
+# Sajid Shaik - Java Developer Portfolio
 
 A modern, responsive portfolio website showcasing my expertise as a Java Developer & Software Engineer with 4+ years of experience in enterprise application development, microservices architecture, and full-stack development in the insurance and healthcare sectors.
 
 ## About
 
-Results-driven Java Developer & Software Engineer specializing in enterprise application development, microservices architecture, and full-stack development. Adept at designing and implementing scalable Java-based solutions and optimizing cloud-based infrastructures using AWS, Kubernetes, and Docker.
+Results-driven Software Engineer specializing in enterprise application development, microservices architecture, and full-stack development. Adept at designing and implementing scalable Java-based solutions and optimizing cloud-based infrastructures using AWS, Kubernetes, and Docker.
 
 **Key Expertise:**
 - Enterprise Java Development (Spring Boot, Hibernate)
