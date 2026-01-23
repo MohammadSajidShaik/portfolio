@@ -1,6 +1,6 @@
 /* Experience Section */
 .experience {
-  padding: 60px 0;
+  padding: 40px 0;
   background: linear-gradient(135deg, var(--dark-secondary) 0%, var(--dark-bg) 100%);
   position: relative;
   overflow: hidden;

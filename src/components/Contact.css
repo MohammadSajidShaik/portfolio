@@ -1,18 +1,19 @@
 .contact {
   position: relative;
+  padding: 40px 0;
 }
 
 .contact-content {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  gap: 4rem;
+  gap: 2.5rem;
   align-items: start;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 .contact-intro {
@@ -24,7 +25,7 @@
 .contact-details {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .contact-item {
