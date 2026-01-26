@@ -1,4 +1,4 @@
-# Sajid Shaik - The Dark Knight Developer Portfolio
+# Sajid Shaik - Full Stack Developer
 
 A dark, mysterious portfolio website where a Java Developer & Software Engineer emerges from the shadows. Armed with 4+ years of experience in enterprise application development, microservices architecture, and full-stack development in the critical sectors of insurance and healthcare.
 

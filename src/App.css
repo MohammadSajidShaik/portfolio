@@ -5,13 +5,11 @@
 
 /* Section Spacing */
 section {
-  padding: 80px 20px;
+  padding: 40px 20px;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -26,6 +24,7 @@ section {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -36,6 +35,7 @@ section {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -48,4 +48,3 @@ section {
 .fade-in {
   animation: fadeIn 0.8s ease-out;
 }
-

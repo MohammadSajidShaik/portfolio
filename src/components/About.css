@@ -5,7 +5,7 @@
 .section-header {
   display: flex;
   align-items: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   gap: 1rem;
 }
 
@@ -24,25 +24,23 @@
 .title-line {
   flex: 1;
   height: 1px;
-  background: linear-gradient(
-    to right,
-    var(--primary-color),
-    transparent
-  );
+  background: linear-gradient(to right,
+      var(--primary-color),
+      transparent);
   margin-left: 1rem;
 }
 
 .about-content {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
-  gap: 4rem;
+  gap: 2rem;
   align-items: flex-start;
   position: relative;
 }
 
 .about-image {
   position: relative;
-  margin-top: -40px;
+  margin-top: 0;
 }
 
 .about-text {
@@ -58,9 +56,9 @@
 }
 
 .batman-intro {
-  background: linear-gradient(135deg, rgba(251, 191, 36, 0.1), rgba(217, 119, 6, 0.05));
-  padding: 1.5rem;
-  border-radius: 12px;
+  background: var(--card-background);
+  padding: 1rem;
+  border-radius: 8px;
   border-left: 4px solid var(--batman-gold);
   position: relative;
   overflow: hidden;
@@ -77,9 +75,9 @@
 }
 
 .batman-skills {
-  background: linear-gradient(135deg, rgba(26, 54, 93, 0.1), rgba(251, 191, 36, 0.05));
-  padding: 1.5rem;
-  border-radius: 12px;
+  background: var(--card-background);
+  padding: 1rem;
+  border-radius: 8px;
   border-left: 4px solid var(--batman-navy);
   position: relative;
 }
@@ -95,9 +93,9 @@
 }
 
 .batman-background {
-  background: linear-gradient(135deg, rgba(10, 10, 10, 0.8), rgba(251, 191, 36, 0.05));
-  padding: 1.5rem;
-  border-radius: 12px;
+  background: var(--card-background);
+  padding: 1rem;
+  border-radius: 8px;
   border: 1px solid rgba(251, 191, 36, 0.2);
   position: relative;
   backdrop-filter: blur(10px);
@@ -121,8 +119,8 @@
 .about-highlights {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .highlight-item {
@@ -243,4 +241,3 @@
     font-size: 2rem;
   }
 }
-

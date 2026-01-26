@@ -49,7 +49,7 @@ const Experience = () => {
     <section id="experience" className="experience">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">04.</span> The Dark Knight Chronicles
+          The Dark Knight Chronicles
         </h2>
         <div className="title-line"></div>
       </div>

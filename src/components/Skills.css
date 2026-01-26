@@ -29,10 +29,10 @@
 .skill-category {
   background: var(--card-background);
   backdrop-filter: blur(10px);
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: 20px;
   border: 1px solid var(--border-color);
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   position: relative;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -204,4 +204,3 @@
     font-size: 0.75rem;
   }
 }
-

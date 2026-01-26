@@ -78,7 +78,7 @@ This message was sent from your portfolio contact form.
     <section id="contact" className="contact">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">06.</span> Send The Signal
+          Send The Signal
         </h2>
         <div className="title-line"></div>
       </div>

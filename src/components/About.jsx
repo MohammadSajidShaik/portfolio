@@ -7,11 +7,11 @@ const About = () => {
     <section id="about" className="about">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">01.</span> About Me
+          About Me
         </h2>
         <div className="title-line"></div>
       </div>
-      
+
       <div className="about-content">
         <div className="about-text">
           <p className="about-description batman-intro">
@@ -31,7 +31,7 @@ const About = () => {
             <br /><br />
             <span className="batman-quote">"The night is darkest just before the dawn. And I promise you, the dawn is coming."</span>
           </p>
-          
+
           <div className="about-highlights">
             <div className="highlight-item">
               <span className="highlight-number">4+</span>
@@ -47,7 +47,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="about-image">
           <div className="image-wrapper">
             <img

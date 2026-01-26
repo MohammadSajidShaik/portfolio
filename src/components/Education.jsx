@@ -30,7 +30,7 @@ const Education = () => {
     <section id="education" className="education">
       <div className="section-header">
         <h2 className="section-title">
-          <span className="title-number">05.</span> Education
+          Education
         </h2>
         <div className="title-line"></div>
       </div>

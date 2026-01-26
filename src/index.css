@@ -19,9 +19,9 @@
   --accent-color: var(--batman-dark-gold); /* Darker gold */
   --dark-bg: var(--batman-black); /* Deep black */
   --dark-secondary: var(--batman-dark-gray); /* Slightly lighter black */
-  --card-background: rgba(26, 26, 26, 0.9); /* Semi-transparent dark card */
+  --card-background: rgba(26, 26, 26, 0.95); /* Solidified background for sharp look */
   --border-color: rgba(251, 191, 36, 0.3); /* Subtle gold border */
-  --shadow: 0 8px 32px rgba(251, 191, 36, 0.15); /* Gold-tinted shadow */
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.5); /* Sharper shadow */
   --text-primary: #f8fafc; /* Light text for dark theme */
   --text-secondary: #cbd5e1; /* Muted text */
   --background-color: var(--dark-bg);

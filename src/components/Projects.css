@@ -5,7 +5,7 @@
 .filter-buttons {
   display: flex;
   gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -37,12 +37,12 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .project-card {
-  background: rgba(30, 41, 59, 0.5);
-  border-radius: 16px;
+  background: var(--card-background);
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid rgba(99, 102, 241, 0.1);
   transition: all 0.3s ease;
@@ -116,7 +116,7 @@
 }
 
 .project-content {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -166,4 +166,3 @@
     height: 200px;
   }
 }
-
